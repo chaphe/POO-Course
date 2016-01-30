@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=mpg
+comment0.target=Car(double)
+comment1.params=mpg
+comment1.target=Car(int)
+comment2.params=mpg\ img
+comment2.target=Car(double,\ java.lang.String)
+comment3.params=distance
+comment3.target=void\ drive(double)
+comment4.params=amount
+comment4.target=void\ addGas(double)
+comment5.params=
+comment5.target=double\ getMilesDriven()
+comment6.params=
+comment6.target=double\ getGasInTank()
+comment7.params=pic
+comment7.target=void\ moveStart(Picture)
+comment7.text=\r\n\ Cambia\ la\ posici\u00F3n\ inicial\ de\ cualquier\ carro\r\n
+numComments=8

@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=x\ y\ color\ ancho\ alto
+comment0.target=Rectangulo(int,\ int,\ java.awt.Color,\ int,\ int)
+numComments=1

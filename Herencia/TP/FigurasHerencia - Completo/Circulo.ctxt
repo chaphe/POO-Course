@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.params=x\ y\ color\ radio
+comment0.target=Circulo(int,\ int,\ java.awt.Color,\ int)
+numComments=1

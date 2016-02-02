@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=base\ altura\ x\ y
+comment0.target=Triangulo(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ crea\ un\ triangulo\ de\ dimensiones\ (base,\ altura)\r\n\ @param\ base\ La\ base\ (ancho)\ del\ triangulo\r\n\ @param\ altura\ La\ altura\ del\ triangulo\r\n\ @param\ x,y\ posici\u00F3n\ del\ triangulo\r\n
+comment1.params=
+comment1.target=int\ getBase()
+comment1.text=\r\n\ Obtiene\ la\ base\ del\ triangulo\r\n\ @return\ la\ base\ del\ triangulo\r\n
+comment2.params=
+comment2.target=int\ getAltura()
+comment2.text=\r\n\ Obtiene\ la\ altura\ del\ triangulo\r\n\ @return\ la\ altura\ del\ triangulo\r\n
+comment3.params=img
+comment3.target=void\ dibujar(Imagen)
+comment3.text=\r\n\ Dibuja\ la\ instancia\ de\ la\ clase\ Triangulo,\ usando\ puntos\ (x,y)\ como\ origen\r\n\ @param\ img\ la\ instancia\ a\ dibujar\r\n\ @see\ Imagen\r\n
+numComments=4

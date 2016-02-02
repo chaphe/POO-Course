@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=ancho\ alto\ x\ y
+comment0.target=Rectangulo(int,\ int,\ int,\ int)
+comment0.text=\r\n\ Constructor\ crea\ un\ rectangulo\ de\ dimensiones\ (ancho,\ alto)\r\n\ @param\ ancho\ El\ ancho\ del\ rectangulo\r\n\ @param\ alto\ La\ altura\ del\ rectangulo\r\n\ @param\ x,y\ La\ posici\u00F3n\ del\ rectangulo\r\n
+comment1.params=t
+comment1.target=boolean\ puedeContenerTriangulo(Triangulo)
+comment1.text=\r\n\ Determina\ si\ una\ instancia\ de\ la\ clase\ Triangulo\ puede\r\n\ estar\ contenido\ dentro\ de\ la\ instancia\ de\ la\ clase\ Rectangulo\r\n\ @param\ t\ Instancia\ de\ la\ clase\ Triangulo\r\n\ @return\ true\ Si\ la\ instancia\ rectangulo\ puede\ contener\ a\ la\ instancia\ triangulo\ (t),\ de\ lo\ contrario\ false\r\n\ @see\ Triangulo\r\n
+comment2.params=c
+comment2.target=boolean\ puedeContenerCirculo(Circulo)
+comment2.text=\r\n\ Determina\ si\ una\ instancia\ de\ la\ clase\ Circulo\ puede\r\n\ estar\ contenido\ dentro\ de\ la\ instancia\ de\ la\ clase\ Rectangulo\r\n\ @param\ c\ Instancia\ de\ la\ clase\ Circulo\r\n\ @return\ true\ Si\ la\ instancia\ rectangulo\ puede\ contener\ a\ la\ instancia\ circulo\ (c),\ de\ lo\ contrario\ false\r\n\ @see\ Circulo\r\n
+comment3.params=img
+comment3.target=void\ dibujar(Imagen)
+comment3.text=\r\n\ Dibuja\ la\ instancia\ \ de\ la\ clase\ Rectangulo,\ usando\ puntos\ (x,y)\ como\ el\ origen\r\n\ @param\ img\ Instancia\ a\ dibujar\r\n\ @see\ Imagen\r\n
+numComments=4

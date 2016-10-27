@@ -24,7 +24,7 @@ public class Persona {
 	}
 
 	public void setEdad(int ed) {
-		this.edad = ed;
+		edad = ed;
 	}
 
 	private boolean validar(String texto) {

@@ -29,13 +29,10 @@ public class Persona {
 
 
    private boolean validar(String texto) {
-      char[] vetorTexto = texto.toCharArray();
-      for (int i = 0; i < vetorTexto.length; i++) {
-         if (vetorTexto[i] == ' ') {
-            return false;
-         }
-      }
-      return false;
+	   if (texto.length()<50)
+		   return true;
+	   else 
+		   return false;
    }      
    
 }

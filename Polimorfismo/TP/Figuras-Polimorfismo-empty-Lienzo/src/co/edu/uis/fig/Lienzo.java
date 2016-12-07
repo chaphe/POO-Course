@@ -22,6 +22,6 @@ public class Lienzo {
 		for (Figura figura : figuras) {
 			figura.dibujar(imagen);
 		}
-		
+		imagen.dibujar();
 	}
 }

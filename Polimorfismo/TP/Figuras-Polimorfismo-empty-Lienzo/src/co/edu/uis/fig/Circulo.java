@@ -6,16 +6,16 @@ import co.edu.uis.img.Imagen;
 
 public class Circulo extends Figura {
 
-	public Circulo(int x, int y, Color color, int radio) {
+	public Circulo(int x, int y, int radio) {
 		/*
-		 * Su código aquí
+		 * Su cÃ³digo aquÃ­
 		 */
 	}
 	
 	public void dibujar(Imagen img) {
 		
 		/*
-		 * Su código aquí
+		 * Su cÃ³digo aquÃ­
 		 */
 		
 		img.mostrar();

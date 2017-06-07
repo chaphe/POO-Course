@@ -5,16 +5,18 @@ import java.awt.Color;
 import co.edu.uis.img.Imagen;
 
 public class Rectangulo extends Figura {
-	public Rectangulo(int x, int y, Color color, int ancho, int alto) {
+	
+	public Rectangulo(int x, int y, int ancho, int alto) {
 	}
 
 	public void dibujar(Imagen img) {
 
 		/*
-		 * Su código aquí
+		 * Su cÃ³digo aquÃ­
 		 */
 
 		img.mostrar();
 	}
 
 }
+

@@ -1,27 +1,28 @@
 package co.edu.uis.fig;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import co.edu.uis.img.Imagen;
 public class Lienzo {
 	
-	private List<Figura> figuras = new ArrayList<Figura>();
-	private Imagen imagen;
+	private Figura[] figuras = new Figura[50]; 
+			private Imagen imagen;
+	private int numFigs;
 	
 	public Lienzo(){
 		imagen = new Imagen(800,800);
+		numFigs = 0;
 		
 	}
 	
 	public void agregarFigura(Figura fig){
-		figuras.add(fig);
+		figuras[numFigs]=fig;
+		numFigs++;
 	}
 	
 	public void dibujar(){
-		for (Figura figura : figuras) {
-			figura.dibujar(imagen);
+		for (int i=0; i<numFigs;i++) {
+			figuras[i].dibujar(imagen);
 		}
-		imagen.dibujar();
+		imagen.mostrar();
 	}
+
 }

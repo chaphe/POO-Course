@@ -8,12 +8,12 @@ public class Figura {
 
 	private int x;
 	private int y;
-	private Color color;
+
 	
-	public Figura(int x, int y, Color color) {
+	public Figura(int x, int y) {
 		this.x = x;
 		this.y= y;
-		this.color = color;
+
 	}
 
 	
@@ -33,13 +33,7 @@ public class Figura {
 		this.y = y;
 	}
 
-	public Color getColor() {
-		return color;
-	}
 
-	public void setColor(Color color) {
-		this.color = color;
-	}
 	
 	
 	public void dibujar(Imagen img) {

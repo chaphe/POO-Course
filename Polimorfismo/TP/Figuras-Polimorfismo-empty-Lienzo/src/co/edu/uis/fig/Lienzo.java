@@ -4,7 +4,7 @@ import co.edu.uis.img.Imagen;
 public class Lienzo {
 	
 	private Figura[] figuras = new Figura[50]; 
-			private Imagen imagen;
+	private Imagen imagen;
 	private int numFigs;
 	
 	public Lienzo(){
